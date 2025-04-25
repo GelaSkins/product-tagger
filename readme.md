@@ -22,12 +22,13 @@ A Node.js script to automatically tag products in your Shopify store based on a 
    ```
 
 ## Usage
-1. Place your CSV file in the `intake` folder
-2. The CSV should have these columns:
+1. Export a set of products to be tagged via Analytics/Reports in Shopify Admin
+2. Place your CSV file in the `intake` folder
+3. The CSV should have these columns:
    - Product title
    - Product vendor
    - Product type
-3. Run the script:
+4. Run the script:
    ```bash
    node product-tagger.js
    ```
